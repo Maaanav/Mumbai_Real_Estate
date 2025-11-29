@@ -1,9 +1,1 @@
-mumbai_price_model.joblib
-mumbai_housing.db
-mumbai_house_prices_cleaned.csv
-*.pickle
-*.pkl
-*.zip
-*.parquet
-*.feather
-*.h5
+
