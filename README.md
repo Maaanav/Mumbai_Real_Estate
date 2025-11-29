@@ -1,36 +1,22 @@
-#  Mumbai Real Estate Price Analysis & Prediction
+# Mumbai Flat Price Predictor 
 
-An end-to-end data analytics and machine learning project to analyze and predict property prices in Mumbai city using Python and SQL.
+Live Web App: [https://your-streamlit-link.streamlit.app](https://your-streamlit-link.streamlit.app)
 
-##  Project Overview
-This project demonstrates the complete data lifecycle:
-1. **Data Cleaning & Preprocessing**  
-   - Converted Lakh/Crore to INR  
-   - Engineered features like `price_per_sqft`, `area_per_bhk`  
-   - Removed outliers using IQR filtering  
+Predicts Mumbai apartment prices with **92.5% accuracy** using real-world data.
 
-2. **Exploratory Data Analysis (EDA)**  
-   - Visualized price distributions, locality trends, and BHK insights  
+## Results
+- **R² Score**: 0.925 (92.5%)
+- **Average Error**: ± ₹64 Lakh
+- **Model**: Random Forest Regressor
+- **Dataset**: 10,000+ real listings
 
-3. **Modeling**  
-   - Built baseline (median-based) predictor  
-   - Trained and evaluated **Random Forest** and **Gradient Boosting** regressors  
-   - Saved best model using `joblib`
+## Tech Stack
+Python • Pandas • Scikit-learn • Streamlit • Joblib
 
-4. **SQL Integration**  
-   - Exported cleaned data into a **SQLite database**  
-   - Wrote analytical SQL queries (price/sqft by region, median by BHK)
+## Live Demo
+![Prediction](image/mumbai_flat_price.png)
 
-5. **Prediction Helper**  
-   - Custom function to predict price given property features  
+## Model Performance
+![Results](image/mumbai_price_r2score.png)
 
----
-
-##  Tech Stack
-- **Languages:** Python  
-- **Libraries:** Pandas, NumPy, scikit-learn, Matplotlib, Joblib  
-- **Database:** SQLite  
-- **Environment:** VS Code / Jupyter Notebook  
-
----
-
+Built by Manav Mangela
