@@ -1,7 +1,6 @@
 # Mumbai Flat Price Predictor 
 
-Live Web App: [https://your-streamlit-link.streamlit.app](https://your-streamlit-link.streamlit.app)
-
+Live Web App: [https://mumbairealestatemanav.streamlit.app](https://mumbairealestatemanav.streamlit.app)
 Predicts Mumbai apartment prices with **92.5% accuracy** using real-world data.
 
 ## Results
